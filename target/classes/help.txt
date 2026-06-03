@@ -1,0 +1,117 @@
+╔══════════════════════════════════════════════════════════════════╗
+║              ROADMAP TRACKER — USER GUIDE v1.0                   ║
+║         Java Spring Boot Backend Engineer — 90 Days              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+OVERVIEW
+────────
+Roadmap Tracker is a personal study agenda, checklist and reminder
+app pre-loaded with your complete 12-week Java Spring Boot backend
+roadmap (June 3 – September 1, 2026).
+
+──────────────────────────────────────────────────────────────────
+NAVIGATION
+──────────────────────────────────────────────────────────────────
+• The left sidebar lists all 12 weeks grouped by month phase.
+• Click any week row to open its full detail on the right panel.
+• The sidebar shows a mini progress bar and % for each week.
+• Click the « / » toggle button (top-left) to collapse or expand
+  the sidebar and gain more horizontal space for tasks.
+
+──────────────────────────────────────────────────────────────────
+TASKS
+──────────────────────────────────────────────────────────────────
+• Type a task name in the top bar and press "+ Add Task" or Enter.
+• Choose a Category (DSA, JAVA, SPRING_BOOT, SQL, SYSTEM_DESIGN,
+  PROJECT, INTERVIEW, OTHER) and a Priority (HIGH / MEDIUM / LOW).
+• Tasks are grouped into two collapsible sections:
+    ▸ Pending  — tasks not yet done (expanded by default)
+    ▸ ✅ Completed (N) — finished tasks (collapsed by default)
+• Check ☐ to mark a task complete → it moves to Completed.
+• Uncheck a completed task → it moves back to Pending.
+• Click ✏️ to edit title, due date, category and priority.
+• Click 🗑 to permanently delete a task (and all its subtasks).
+
+──────────────────────────────────────────────────────────────────
+SUBTASKS
+──────────────────────────────────────────────────────────────────
+• Click "▶ 0/0 sub" on any task to expand its subtask panel.
+• Type in the "Add subtask..." field and press Enter or ＋.
+  → The panel stays open while you keep adding more subtasks.
+• Check a subtask checkbox to mark it done (strikethrough style).
+• Click ✕ next to a subtask to delete it.
+• The thin bar under each task shows subtask completion progress.
+
+──────────────────────────────────────────────────────────────────
+TASK NOTES
+──────────────────────────────────────────────────────────────────
+• Each task has its own private notes panel.
+• Click 📝 on a task to expand/collapse its notes.
+• Write a note in the text area and click "Save".
+• Notes appear inline below the input area.
+• Click ✕ on any note to delete it.
+
+──────────────────────────────────────────────────────────────────
+WEEK NOTES
+──────────────────────────────────────────────────────────────────
+• Use the "📝 Week Notes" tab (inside the week detail view) for
+  week-level notes: blockers, resources, key learnings, links.
+• Click "+ New Note", enter a title and content, then click OK.
+• Click ✏️ to edit or 🗑 to delete a week note.
+
+──────────────────────────────────────────────────────────────────
+REMINDERS
+──────────────────────────────────────────────────────────────────
+• Click ⏰ on any task to set a date + time reminder.
+• Enter an optional custom message (defaults to task title).
+• While the app is open, reminders are checked every 60 seconds.
+• A popup alert fires when a reminder becomes due.
+
+──────────────────────────────────────────────────────────────────
+EDITING DATES
+──────────────────────────────────────────────────────────────────
+• Click "✏️ Edit Dates" in the week header to change a week's
+  start and end dates using the date pickers.
+
+──────────────────────────────────────────────────────────────────
+PROGRESS TRACKING
+──────────────────────────────────────────────────────────────────
+• Top stats bar: Total Tasks / Completed / Overall % / Weeks.
+• Week header: progress bar + "done / total  •  %" label.
+• Sidebar: mini progress bar and % per week.
+• Task card: thin progress bar shows subtask completion.
+
+──────────────────────────────────────────────────────────────────
+INFO TAB
+──────────────────────────────────────────────────────────────────
+• Each week has an "ℹ️ Info" tab showing the original roadmap
+  content: Topics, Practice tasks, Goal, and daily hours.
+
+──────────────────────────────────────────────────────────────────
+DATA & STORAGE
+──────────────────────────────────────────────────────────────────
+• All data is saved automatically in an embedded H2 database at:
+    ~/.roadmap-tracker/data/roadmapdb
+• No internet connection required — everything is local.
+• To reset all data and start fresh, delete that folder and
+  restart the app (the 12-week seed will reload automatically).
+
+──────────────────────────────────────────────────────────────────
+TECH STACK
+──────────────────────────────────────────────────────────────────
+  JavaFX 21      Desktop UI framework
+  Hibernate 6    ORM / JPA persistence
+  H2 2.x         Embedded relational database
+  Maven          Build & dependency management
+  Java 21 LTS    Runtime
+
+──────────────────────────────────────────────────────────────────
+KEYBOARD SHORTCUTS
+──────────────────────────────────────────────────────────────────
+  Enter    Submit the focused input field (add task / add subtask)
+  Cmd+Q    Quit the application (macOS standard)
+
+──────────────────────────────────────────────────────────────────
+VERSION
+──────────────────────────────────────────────────────────────────
+  Roadmap Tracker v1.0  —  Built June 2026
