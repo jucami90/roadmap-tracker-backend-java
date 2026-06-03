@@ -1,6 +1,8 @@
 # 🚀 Backend Roadmap Tracker
 ### JavaFX + H2 + Hibernate — Java Spring Boot 90-Day Study App
 
+<img width="696" height="429" alt="image" src="https://github.com/user-attachments/assets/2016ab3e-0b2a-43e7-aa7f-42473cd4a52c" />
+
 ---
 
 ## 📋 What this app does
